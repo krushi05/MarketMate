@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketMate — Learn the Market Before You Risk Your Money</title>
+    <meta name="description" content="MarketMate is an educational stock-market simulator for absolute beginners with ₹1,00,000 virtual balance and Smart Watchlists." />
+    <meta property="og:title" content="MarketMate — Learn the Market Before You Risk Your Money" />
+    <meta property="og:description" content="MarketMate is an educational stock-market simulator for absolute beginners with ₹1,00,000 virtual balance and Smart Watchlists." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Early error interceptor to prevent cross-origin script error noise in sandboxed iframe
+      window.addEventListener('error', function(e) {
+        if (e.message === 'Script error.' || !e.filename) {
+          console.warn('[Handled external script event]', e.message);
+        }
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        console.warn('[Handled promise rejection]', e.reason);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

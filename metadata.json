@@ -1,0 +1,6 @@
+{
+  "name": "MarketMate",
+  "description": "Learn the market before you risk your money. Beginner stock simulator with Smart Watchlists and guided lessons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
